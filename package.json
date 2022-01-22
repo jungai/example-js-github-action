@@ -1,0 +1,25 @@
+{
+  "name": "example-js-github-action",
+  "version": "1.0.0",
+  "author": "jungai",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungai/example-js-github-action.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungai/example-js-github-action/issues"
+  },
+  "homepage": "https://github.com/jungai/example-js-github-action#readme",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
